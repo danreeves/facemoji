@@ -22,9 +22,8 @@
         align-items: center;
         flex-direction: column;
       }
-      h1 img {
+      h1 img, footer img {
         height: 1em;
-        vertical-align: top;
       }
       .container {
         position: relative;
@@ -44,11 +43,22 @@
         margin-top: 1em;
         list-style-type: none;
       }
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        color: deeppink;
+      }
+      .glitch-remix {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+      }
     </style>
   </head>
   <body>
     <h1>
-      <img src="https://cdn.glitch.com/2539c9eb-689e-4765-addb-baf19c7b5bf2%2Fsparkles.png?1496841442400"/> Facemoji
+      <img src="https://cdn.glitch.com/2539c9eb-689e-4765-addb-baf19c7b5bf2%2Fsparkles.png?1496841442400"/>
+      Facemoji
     </h1>
     <div class="container">
       <video></video>
@@ -62,5 +72,11 @@
         </ol>
       </div>
     </div>
+    <footer id="gRemix">
+      <img src="https://cdn.glitch.com/2539c9eb-689e-4765-addb-baf19c7b5bf2%2Fheart.png?1497091520812"/>
+      <a href="https://www.emojione.com">Emoji artwork provided by EmojiOne</a>
+    </footer>
+    <span class="glitch-remix"></span>
+    <script src="https://remix.glitch.me/remix.min.js"></script>
   </body>
 </html>

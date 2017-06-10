@@ -50,7 +50,7 @@ if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices && '
     
       videoEl.src = window.URL.createObjectURL(stream);
       videoEl.play();
-      setTimeout(() => drawFaces(), 1000); // TODO: how can we do this better?
+      setTimeout(() => drawFaces(), 1000); // TODO: how can I do this better?
     
     }).catch(function(err) {
       console.error('Failed to get webcam', err)
