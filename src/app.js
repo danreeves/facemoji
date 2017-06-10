@@ -92,10 +92,19 @@ if ('mediaDevices' in navigator && 'getUserMedia' in navigator.mediaDevices && '
             })
             .catch(err => {
               console.error("Boo, Face Detection failed: " + err);
+              doesntWork();
             });
       }
     
     }).catch(function(err) {
-      console.error('Failed to get webcam', err)
+      console.error('Failed to get webcam', err);
+      doesntWork();
     });
+} else {
+  doesntWork();
+}
+
+function doesntWork() {
+  document.querySelector('video').remove();
+  document.querySelector('canvas').remove();
 }
