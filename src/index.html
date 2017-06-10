@@ -9,6 +9,9 @@
         padding: 0;
         font-family: sans-serif;
       }
+      samp {
+        font-family: monospace;
+      }
       html, body {
         padding: 0;
         margin: 0;
@@ -33,15 +36,17 @@
         margin: 1em;
       }
       video, canvas {
+        pointer-events: none;
         position: absolute;
         top: 0;
         left: 0;
       }
       p, ol {
-        text-align: center;
         font-weight: bold;
-        margin-top: 1em;
-        list-style-type: none;
+        margin: 1em;
+      }
+      li {
+        margin-left: 2.5em;
       }
       a {
         text-decoration: none;
@@ -65,10 +70,10 @@
       <canvas width="640" height="480"></canvas>
       <div class="nosupport">
         <p>Sorry, your browser doesn't support this experimental feature 🤷‍♀️</p>
-        <p>You'll need:</p>
+        <p>You'll need to:</p>
         <ol>
           <li>Download <a href="https://www.google.com/chrome/browser/canary.html">Chrome Canary</a></li>
-          <li>Enable <a href="chrome://flags/#enable-experimental-web-platform-features">experimental features</a></li>
+          <li>Enable <samp>chrome://flags/#enable-experimental-web-platform-features</samp></li>
         </ol>
       </div>
     </div>
