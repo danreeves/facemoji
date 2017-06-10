@@ -1,8 +1,7 @@
 {
-  "name": "my-glitch-app",
-  "version": "0.0.1",
-  "description": "What am I about?",
-  "main": "server.js",
+  "name": "facemoji",
+  "version": "1.0.0",
+  "description": "An experiment with the FaceDetector API. It puts emojis on your face!",
   "scripts": {
     "start": "webpack-dev-server"
   },
@@ -15,12 +14,13 @@
     "node": "6.10.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/welcome-project"
+    "url": "https://github.com/danreeves/facemoji"
   },
   "license": "MIT",
   "keywords": [
-    "node",
     "glitch",
-    "express"
+    "face",
+    "detector",
+    "emoji"
   ]
 }
