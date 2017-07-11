@@ -10,4 +10,6 @@ Check out `src/app.js` to see how it works.
 
 ---
 
+Made by [@dnrvs](https://twitter.com/dnrvs)
+
 Have a nice day 🌤
