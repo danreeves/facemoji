@@ -11,14 +11,14 @@ const mouth = {
   name: 'mouth',
   src: 'https://cdn.glitch.com/2539c9eb-689e-4765-addb-baf19c7b5bf2%2Fmouth.png?1496842076965',
 };
-// const tongue = {
-//   name: 'tongue',
-//   src: 'https://cdn.glitch.com/2539c9eb-689e-4765-addb-baf19c7b5bf2%2Ftongue.png?1496841781303',
-// };
-// const fire = {
-//   name: 'fire',
-//   src: 'https://cdn.glitch.com/2539c9eb-689e-4765-addb-baf19c7b5bf2%2Ffire.png?1496842103467',
-// };
+const tongue = {
+  name: 'tongue',
+  src: 'https://cdn.glitch.com/2539c9eb-689e-4765-addb-baf19c7b5bf2%2Ftongue.png?1496841781303',
+};
+const fire = {
+  name: 'fire',
+  src: 'https://cdn.glitch.com/2539c9eb-689e-4765-addb-baf19c7b5bf2%2Ffire.png?1496842103467',
+};
 // const ogre = {
 //   name: 'ogre',
 //   src: 'https://cdn.glitch.com/7294edae-c141-414c-8ed1-53a7aeeca65c%2Forge.png?1497029823040',
@@ -36,8 +36,8 @@ const srcs = [
   sparkles,
   eye,
   mouth,
-  // tongue,
-  // fire,
+  tongue,
+  fire,
   // ogre,
   // smile,
   // foxface,
